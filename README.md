@@ -3,7 +3,6 @@
 
 <div align="center">
   <img src="https://github.com/helioborges164/happy-easter/blob/main/assets/img/desktop.png?raw=true" alt="Banner do Projeto" />
-  <img src="https://github.com/helioborges164/happy-easter/blob/main/assets/img/mobile.png?raw=true" alt="Banner do Projeto" />
 </div>
 
 <h2> Sobre o Projeto</h2>
