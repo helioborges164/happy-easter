@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./assets/img/icone.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Happy Easter</title>
+</head>
+
+<body>
+    <header id="header">
+        <nav id="navbar">
+            <a href="#" id="logo">
+                <i class="fa-solid fa-egg">Happy Easter</i>
+            </a>
+            <ul class="list-navbar">
+                <li>
+                    <a class="item-list" href="#home">Início</a>
+                </li>
+
+                <li>
+                    <a class="item-list" href="#about">Sobre</a>
+                </li>
+
+                <li>
+                    <a class="item-list" href="#menu">Cardápio</a>
+                </li>
+            </ul>
+
+            <button class="nav-button">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="content-home">
+                <h1 class="main-title">Uma Páscoa Doce e Sofisticada</h1>
+                <p class="description">
+                    Mais que chocolates e presentes, a Páscoa é a celebração da vida e da vitória do amor.
+                    Que o espírito de Jesus ilumine seu caminho.
+                </p>
+
+                <a href="#menu" class="button-home">Ver Cardápio</a>
+
+                <div class="box-eggs">
+                    <button onclick="eggButtonClick('./assets/img/img1.png')"
+                        class="egg-button milk-chocolate"></button>
+                    <button onclick="eggButtonClick('./assets/img/img2.png')"
+                        class="egg-button white-chocolate"></button>
+                    <button onclick="eggButtonClick('./assets/img/img3.png')"
+                        class="egg-button confetti-chocolate"></button>
+                </div>
+            </div>
+
+            <div class="banner-home">
+                <img class="egg-image" src="./assets/img/img1.png" alt="Imagem-principal">
+            </div>
+        </section>
+
+        <section id="about">
+            <h2 class="title">Sobre <span>Nós</span></h2>
+            <div class="container-about">
+                <div class="banner-about">
+                    <img class="image-about" src="./assets/img/about-img.png" alt="imagem-sobre">
+                </div>
+                <div class="content-about">
+                    <h3 class="title-about">Bem-vindo à nossa loja</h3>
+
+                    <p class="description-about">
+                        Celebramos a magia da Páscoa com chocolates e ovos artesanais feitos com amor. Compartilhamos
+                        momentos doces e especiais para tornar sua Páscoa ainda mais mágica!
+                    </p>
+
+                    <a href="#menu" class="button-about">Ver Cardápio</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="title">Nosso <span>Cardápio</span></h2>
+
+            <div class="container-menu">
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img1.png" alt="Brigadeiro">
+                    <h3 class="name-product">Ovo de Pascoa Artesanal Brigadeiro</h3>
+                    <p class="valor-product">R$ 55,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+
+            
+
+            
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img2.png" alt="Morango">
+                    <h3 class="name-product">Ovo de Pascoa Artesanal Morango</h3>
+                    <p class="valor-product">R$ 47,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+
+            
+
+            
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img3.png" alt="Limao">
+                    <h3 class="name-product">Ovo de pascoa Artesanal Limão</h3>
+                    <p class="valor-product">R$ 39,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img4.png" alt="Amendoim">
+                    <h3 class="name-product">Ovo de Pascoa Artesanal Amendoim</h3>
+                    <p class="valor-product">R$ 35,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img5.png" alt="Ovo Dueto">
+                    <h3 class="name-product">Ovo de Pascoa Artesanal Ovo Dueto</h3>
+                    <p class="valor-product">R$ 48,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+
+                <div class="card-menu">
+                    <img class="image-product" src="./assets/img/card-img6.png" alt="Doce de Leite">
+                    <h3 class="name-product">Ovo de Pascoa Artesanal Doce de leite</h3>
+                    <p class="valor-product">R$ 42,99</p>
+
+                    <button class="button-add">Adicionar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
