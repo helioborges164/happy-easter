@@ -2,7 +2,7 @@
 <!-- Título do Projeto -->
 
 <div align="center">
-  <img src="" alt="Banner do Projeto" />
+  <img src="https://github.com/helioborges164/happy-easter/blob/main/assets/img/desktop.png?raw=true" alt="Banner do Projeto" />
   <img src="" alt="Banner do Projeto" />
 </div>
 
