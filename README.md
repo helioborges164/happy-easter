@@ -30,10 +30,4 @@
   <p>Foi mais do que um exercício técnico. Foi uma forma de usar código como expressão — transmitindo mensagem, propósito e carinho em cada detalhe. Com certeza, uma fonte de inspiração para projetos futuros.</p>
 </blockquote>
 
-<h2> Em progresso</h2>
-<ul>
-  <li>Melhorar responsividade para telas intermediárias e TVs</li>
-  <li>Refinar detalhes visuais e acessibilidade</li>
-  <li>Adicionar página de contato e carrinho (em versões futuras)</li>
-</ul>
 
